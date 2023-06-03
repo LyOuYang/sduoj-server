@@ -4,6 +4,7 @@ MAINTAINER SDUOJ-Team
 ENV LANG C.UTF-8
 
 COPY build/sduoj-*.jar /root/sduoj/
+RUN chmod 777 /root/sduoj/*.jar
 
 # download docker-compose-wait
 COPY --from=sduoj/docker-compose-wait:latest /wait /wait
