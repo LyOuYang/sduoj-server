@@ -44,4 +44,4 @@ jobs:
           file: microservice.Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: registry.cn-beijing.aliyuncs.com/sduoj/sduoj-server:latest
+          tags: lyouyang/sduoj/sduoj-server:latest
